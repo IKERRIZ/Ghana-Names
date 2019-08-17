@@ -1,4 +1,4 @@
-// validate the form
+// variables
 // var akannames =[
 //   male{
 //  Sunday:Kwasi;
@@ -22,7 +22,9 @@
 
 //}
 //]
-
+function validateForm(){
+ var
+}
 
  
  
