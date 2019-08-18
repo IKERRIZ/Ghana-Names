@@ -20,7 +20,7 @@
     <h1>Welcome to akan names </h1>
     <p>Enter your birthday details below</p>
     <div class="form">
-        <form>
+        <form name="ghana-forms">
             Enter day:<br>
             <input type="text" name="Enter day" placeholder="DD" maxlength="2"><br>
             Enter month:<br>
@@ -32,13 +32,13 @@
             <input type="radio" name="gender" value="male" checked> Male<br>
             <input type="radio" name="gender" value="female"> Female<br>
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" onclick="return validateForm">
             <input type="Reset" value="Reset">
         </form>
     </div>
 </body>
-<script type="text/javascript" src="..js/script.js">
+<script type="text/javascript" src="js/script.js">
 </script>
-<p>All right reserved copyright @Faith</p>
+<p id="right">All right reserved copyright @Faith</p>
 
 </html>
