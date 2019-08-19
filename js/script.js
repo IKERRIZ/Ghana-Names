@@ -2,6 +2,7 @@ function validateForm() {
     var DD = document.getElementById("day").value;
     var MM = document.getElementById("month").value;
     var YY = document.getElementById("year").value;
+    var gender= document.getElementsByName("gender");
   
     if( DD <= 0 || DD >31 || DD === ""){
 
@@ -20,9 +21,28 @@ function validateForm() {
        return false;
     }
 
-  var week =  Math.round(
-      (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 *(MM + 1)) / 10 + DD)%7
-  );
+    if(gender[0].checked === false && gender[1].checked === false){
+        alert("Select your gender");
+    }
+    else{
+        for(var j=0; j< gender.length; j++){
+            if(gender[j].checked)
+            alert(gender[j].value);
+        }
+    }
+    
+
+    // var a = Math.floor((14 - month) / 12);
+    // var y = year - a;
+    //  var m = month + 12 * a - 2;
+    //  var d = (day + y + Math.floor(y / 4) - Math.floor(y / 100) +
+    //  Math.floor(year / 400) + Math.floor((31 * m) / 12)) % 7;
+    //  return d;
+ 
+}
+function result(){
+    validateForm()
+ 
 }
 var maleList = {
 
