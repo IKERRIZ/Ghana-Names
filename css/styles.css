@@ -1,5 +1,6 @@
 body{
    background-image: url("../images/ghana-house.jpg");
+   display:cover;
 }
 h1{
     text-align: center;
@@ -8,8 +9,8 @@ h1{
 p{
     text-align: center;
     font-size: 20px;
-    color:purple;
+    color:blueviolet;
 }
 .form{
-    text-align: center;
+    text-align:center;
 }
