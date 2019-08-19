@@ -15,19 +15,14 @@ function validateForm() {
         return false;
     
     }
-    else if( YY <1900 || YY == "" || YY < 2019){
+    else if( YY <1900 || YY == "" || YY > 2019){
         alert("Invalid year");
        return false;
     }
 
-
-    
-
-
-
-
-
-
+  var week =  Math.round(
+      (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 *(MM + 1)) / 10 + DD)%7
+  );
 }
 var maleList = {
 
