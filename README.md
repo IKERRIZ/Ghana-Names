@@ -3,6 +3,9 @@
 #### By **Faith Adhiambo Okoth**
 ## Description
 This website is designed to help us calculate days of our happybirthday depending on every gender.The application helps to calculate the day according to input detailsof the user. Incase of wrong details the calculator returns an error.
+
+## Image 
+![image](images/akan.png)
 ## Setup/Installation Requirements
 * This application will only require an internet connection and an electronic devices which allows the user to browse through the internet.
 ## Behaviour Driven Development(BDD)
