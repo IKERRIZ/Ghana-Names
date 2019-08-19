@@ -22,18 +22,18 @@
     <div class="form">
         <form name="ghana-forms">
             Enter day:<br>
-            <input type="text" name="Enter day" placeholder="DD" maxlength="2"><br>
+            <input type="number" name="Enter day" placeholder="DD" id="day"><br>
             Enter month:<br>
-            <input type="text" name="Enter month" placeholder="MM" maxlength="2"><br>
+            <input type="number" name="Enter month" placeholder="MM" id="month"><br>
             Enter year:<br>
-            <input type="text" name="Enter year" placeholder="YY" maxlength="4"><br>
+            <input type="number" name="Enter year" placeholder="YY" id="year"><br>
             <br><br>
             Choose your gender:<br>
             <input type="radio" name="gender" value="male" checked> Male<br>
             <input type="radio" name="gender" value="female"> Female<br>
             <br>
-            <input type="submit" value="Submit" onclick="return validateForm">
-            <input type="Reset" value="Reset">
+            <input type="submit" value="Submit" onclick="validateForm()">
+            <p><span>Congragulation your Akan name is:</span><label id="correct"></label></p>
         </form>
     </div>
 </body>
